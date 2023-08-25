@@ -104,6 +104,12 @@ body {
 .slide-control-button.active {
     color: #cd8cf5;
 }
+/* Define um estilo para os slides nas extremidades */
+.slide-end {
+    opacity: 0.1; /* Reduz a opacidade (tornando-os mais escuros) */
+    /* Outros estilos, se necessário */
+}
+
 
 @media screen and (max-width: 768px) {
     .slide-description {
